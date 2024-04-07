@@ -166,16 +166,16 @@ h2{
     gap: 5px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    grid-template-areas:"gym gym parque spa spa comedor"
-                        "gym gym parque spa spa comedor"
-                        "gym gym parque spa spa comedor"
-                        "gym gym parque spa spa comedor"
-                        "gym2 gym2 parque masaje masaje comedor"
-                        "gym2 gym2 parque masaje masaje comedor"
-                        "gym2 gym2 parque masaje masaje comedor"
-                        "pileta pileta pileta pileta pileta pileta"
-                        "pileta pileta pileta pileta pileta pileta"
-                        "pileta pileta pileta pileta pileta pileta";
+    grid-template-areas:"parque parque gym gym comedor comedor"
+                        "parque parque gym gym comedor comedor"
+                        "parque parque gym gym comedor comedor"
+                        "parque parque gym gym comedor comedor"
+                        "parque parque gym gym comedor comedor"
+                        "parque parque gym gym comedor comedor"
+                        "pileta pileta pileta spa spa spa"
+                        "pileta pileta pileta spa spa spa"
+                        "pileta pileta pileta spa spa spa"
+                        "pileta pileta pileta spa spa spa";
 }
 
 .img-gym{
@@ -189,12 +189,6 @@ h2{
 }
 .img-comedor{
     grid-area: comedor;
-}
-.img-gym2{
-    grid-area: gym2;
-}
-.img-masajes{
-    grid-area: masaje;
 }
 .img-pileta{
     grid-area: pileta;
