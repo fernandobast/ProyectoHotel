@@ -20,6 +20,7 @@
 }
 
 .listas-nav {
+  width: auto;
   padding: 0px;
   gap: 25px;
   list-style: none;
@@ -262,18 +263,8 @@ footer li {
   justify-content: center;
 }
 
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
 .footer-nosotros {
-  margin-top: auto;
+  position: inherit;
 }
 
 @media (max-width: 1024px) {
@@ -292,7 +283,7 @@ body {
     text-align: center;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   .principal-contenido-titulo {
     font-size: 37px;
   }
