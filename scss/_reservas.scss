@@ -1,0 +1,37 @@
+.contenido-contactos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+}
+.subtitulo-contactos{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.formulario{ 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+.consulta{
+   display: flex;
+   flex-direction: column;
+}
+.texto-consulta{
+    width: 500px;
+    height: 200px;
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.boton-consulta{
+    width: 50px;
+    height: 25px;
+    margin-top: -20px;
+    margin-left: 460px;
+
+}

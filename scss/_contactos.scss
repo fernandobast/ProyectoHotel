@@ -1,0 +1,46 @@
+.Titulo-contactos{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+ }
+
+ .contenido-contactos{
+    width: 490px;
+    margin: 1px;
+    padding: 20px;
+    border-radius: 5px;
+ }
+ .contenido-contacto-grupos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px 0px;
+ }
+
+ .contenido-contacto-grupos-label{
+    color: #050505;
+    font-size: 22px;
+    text-decoration: underline;
+    font-style: italic;
+ }
+
+.contenido-contacto-grupos-input{
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+.contenido-contacto-grupos-input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.contenido-contacto-grupos-input:focus{
+    border: 3px solid rgb(0, 0, 0);
+    outline: none;
+}
+
+.contenido-contactos-boto{
+    width: 50%;
+    border-radius: 5px;
+    transition: 0.5s;
+}

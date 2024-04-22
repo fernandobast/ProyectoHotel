@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.body {
+  background-image: url("../img/imagen-inicio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.principal-contenido-titulo {
+  font-size: 55px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  text-shadow: 3px 5px 2px #050505, 2px 2px 2px rgba(248, 248, 248, 0);
+}
+
+.listas-nav {
+  padding: 0px;
+  gap: 25px;
+  list-style: none;
+  background-color: #ffffff;
+  box-shadow: inset -1px 3px 8px 5px #0077ff, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.877);
+  font-size: 20px;
+  padding-right: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Contenido {
+  box-shadow: inset -1px 3px 8px 5px #070707, 2px 5px 16px 0px #000000, 33px 7px 18px 11px rgba(0, 0, 0, 0.34);
+  background-color: rgba(81, 167, 201, 0.8156862745);
+  width: 37%;
+  height: auto;
+  margin-left: 62%;
+  border-radius: 10px;
+  color: rgb(22, 22, 22);
+  gap: 15px;
+  margin-top: 55px;
+}
+
+.contenido-introduccion {
+  text-align: start;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.nosortros {
+  display: flex;
+}
+
+.titulo-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 45px;
+  text-shadow: 1px 0px 1px #000000, 0px 1px 1px #000000, 2px 1px 1px #000000, 1px 2px 1px #000000, 3px 2px 1px #000000, 2px 3px 1px #000000, 4px 3px 1px #000000, 3px 4px 1px #000000, 5px 4px 1px #000000, 4px 5px 1px #000000, 6px 5px 1px #050505, 5px 6px 1px #000000, 7px 6px 1px #000000, 5px -3px 3px rgba(0, 0, 0, 0.44);
+}
+
+.imagen {
+  width: 100%;
+  height: 390px;
+  -o-object-fit: center;
+     object-fit: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 5px;
+}
+
+.contenido {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.89);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.contenido-contactos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+}
+
+.subtitulo-contactos {
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+  text-decoration: underline;
+}
+
+.consulta {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-consulta {
+  width: 500px;
+  height: 200px;
+  border: 1px black solid;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.boton-consulta {
+  width: 50px;
+  height: 25px;
+  margin-top: -20px;
+  margin-left: 460px;
+}
+
+.imagenes-titulo {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: none;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.galeria-imagenes {
+  width: 100%;
+  height: 1340px;
+  margin: auto;
+  padding: 50px;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  grid-template-areas: "parque parque comedor comedor" "parque parque comedor comedor" "parque parque comedor comedor" "parque parque comedor comedor" "parque parque comedor comedor" "gym gym spa spa" "gym gym spa spa" "gym gym spa spa" "gym gym spa spa" "gym gym spa spa" "pileta pileta pileta pileta" "pileta pileta pileta pileta" "pileta pileta pileta pileta" "pileta pileta pileta pileta" "pileta pileta pileta pileta";
+}
+
+.img-gym {
+  grid-area: gym;
+}
+
+.img-parque {
+  grid-area: parque;
+}
+
+.img-spa {
+  grid-area: spa;
+}
+
+.img-comedor {
+  grid-area: comedor;
+}
+
+.img-pileta {
+  grid-area: pileta;
+}
+
+.galeria-imagenes img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Titulo-contactos {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.contenido-contactos {
+  width: 490px;
+  margin: 1px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contenido-contacto-grupos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0px;
+}
+
+.contenido-contacto-grupos-label {
+  color: #050505;
+  font-size: 22px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.contenido-contacto-grupos-input {
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  padding: 5px 5px;
+}
+
+.contenido-contacto-grupos-input::-moz-placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.contenido-contacto-grupos-input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.contenido-contacto-grupos-input:focus {
+  border: 3px solid rgb(0, 0, 0);
+  outline: none;
+}
+
+.contenido-contactos-boto {
+  width: 50%;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.footer {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  background-color: rgba(44, 44, 44, 0.74);
+  box-shadow: inset -1px 3px 8px 5px #616161, 2px 5px 16px 0px rgba(97, 97, 97, 0.6156862745), 33px 7px 18px 11px rgba(255, 255, 255, 0.34);
+  position: fixed;
+  bottom: 0px;
+  color: rgba(253, 253, 253, 0.911);
+}
+
+footer li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nosotros {
+  position: inherit;
+}
+
+@media (max-width: 1024px) {
+  .aleria-imagenes {
+    padding: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .galeria-imagenes {
+    padding: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .principal-contenido-titulo {
+    font-size: 37px;
+  }
+  .contenido {
+    width: auto;
+    height: auto;
+    margin: 5px;
+  }
+  .contenido-introduccion {
+    font-size: 15px;
+  }
+  .footer {
+    font-size: 15px;
+  }
+  .copy-footer {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

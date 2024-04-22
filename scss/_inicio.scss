@@ -1,0 +1,32 @@
+.body{
+    background-image: url("../img/imagen-inicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.principal-contenido-titulo{
+    font-size: 55px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-shadow: 3px 5px 2px #050505, 2px 2px 2px rgba(248, 248, 248, 0)
+}
+.listas-nav{
+    padding: 0px;
+    gap: 25px;
+    list-style: none;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: inset -1px 3px 8px 5px #0077ff, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+    
+}   
+li a{
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.877);
+    font-size: 20px;
+    padding-right: 15px;
+    font-weight: bold;
+    font-style: italic;   
+}
+

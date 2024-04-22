@@ -1,0 +1,20 @@
+.footer{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    background-color: rgba(44, 44, 44, 0.74);
+    -webkit-box-shadow: inset -1px 3px 8px 5px #ffffff, 2px 5px 16px 0px #f3f3f3, 33px 7px 18px 11px rgba(255, 255, 255, 0.74); 
+    box-shadow: inset -1px 3px 8px 5px #616161, 2px 5px 16px 0px #6161619d, 33px 7px 18px 11px rgba(255, 255, 255, 0.34);
+    position: fixed;
+    bottom: 0px;
+    color: rgba(253, 253, 253, 0.911);
+}
+footer li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.footer-nosotros{
+    position: inherit;
+}

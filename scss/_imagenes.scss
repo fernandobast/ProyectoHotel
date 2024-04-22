@@ -1,0 +1,58 @@
+.imagenes-titulo{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: none;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.galeria-imagenes{
+    width: 100%;
+    height: 1340px;
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-areas:"parque parque comedor comedor"
+                        "parque parque comedor comedor"
+                        "parque parque comedor comedor"
+                        "parque parque comedor comedor"
+                        "parque parque comedor comedor"
+                        "gym gym spa spa"
+                        "gym gym spa spa"
+                        "gym gym spa spa"
+                        "gym gym spa spa"
+                        "gym gym spa spa"
+                        "pileta pileta pileta pileta"
+                        "pileta pileta pileta pileta"
+                        "pileta pileta pileta pileta"
+                        "pileta pileta pileta pileta"
+                        "pileta pileta pileta pileta";
+}
+
+.img-gym{
+    grid-area: gym;
+}
+.img-parque{
+    grid-area: parque;
+}
+.img-spa{
+    grid-area: spa;
+}
+.img-comedor{
+    grid-area: comedor;
+}
+.img-pileta{
+    grid-area: pileta;
+}
+
+
+.galeria-imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
