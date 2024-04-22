@@ -263,7 +263,7 @@ footer li {
 }
 
 .footer-nosotros {
-  position: inherit;
+  margin-top: auto;
 }
 
 @media (max-width: 1024px) {
