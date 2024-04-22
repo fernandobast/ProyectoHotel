@@ -262,6 +262,16 @@ footer li {
   justify-content: center;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 .footer-nosotros {
   margin-top: auto;
 }
