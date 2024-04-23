@@ -46,13 +46,14 @@ li a{
     -webkit-box-shadow: inset -1px 3px 8px 5px #050505, 2px 5px 16px 0px #080808, 33px 7px 18px 11px rgba(0,0,0,0.34); 
     box-shadow: inset -1px 3px 8px 5px #070707, 2px 5px 16px 0px #000000, 33px 7px 18px 11px rgba(0,0,0,0.34);
     background-color: #51a7c9d0;
-    width: 37%;
+    width: 45%;
     height: auto;
-    margin-left: 62%;
+    margin-left: 4%;
     border-radius: 10px;
     color: rgb(22, 22, 22);
     gap: 15px;
-    margin-top: 55px;
+    margin-top: 90px;
+
 }
 .contenido-introduccion{
     text-align: start;
@@ -298,13 +299,22 @@ footer li{
 }
 
 @media(max-width: 768px){
+    .Contenido{
+        width: 80%;
+
+    }
     .galeria-imagenes{
         padding: 5px;
     }
 }
 
 
-@media( max-width: 480px){
+@media( max-width: 500px){
+    
+    .Contenido{
+        width: 100%;
+
+    }
     .principal-contenido-titulo{
         
         font-size: 37px;
