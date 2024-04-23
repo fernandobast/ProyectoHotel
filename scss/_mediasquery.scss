@@ -3,15 +3,25 @@
     .galeria-imagenes{
         padding: 5px;
     }
+    .contenido-contactos{
+        width: 80%;
+    }
 }
 
-@media(max-width: 768px){
+@media(max-width: 770px){
     .Contenido{
         width: 80%;
 
     }
     .galeria-imagenes{
         padding: 5px;
+    }
+    .Titulo-contactos{
+        font-size: 25px;
+        margin: 2px;
+    }
+    .contenido-contactos{
+        width: 65%;
     }
 }
 
@@ -40,5 +50,12 @@
     }
     .copy-footer{
         text-align: center;
+    }
+    .Titulo-contactos{
+        font-size: 20px;
+        margin: 2px;
+    }
+    .contenido-contactos{
+        width: auto;
     }
 }
