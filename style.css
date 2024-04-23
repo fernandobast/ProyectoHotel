@@ -9,6 +9,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  height: 100%;
 }
 
 .principal-contenido-titulo {
@@ -38,15 +39,15 @@ li a {
 }
 
 .Contenido {
-  box-shadow: inset -1px 3px 8px 5px #070707, 2px 5px 16px 0px #000000, 33px 7px 18px 11px rgba(0, 0, 0, 0.34);
-  background-color: rgba(52, 122, 150, 0.8156862745);
-  width: 37%;
+  width: 17%;
   height: auto;
   margin-left: 62%;
   margin-top: 55px;
   border-radius: 10px;
   color: rgb(22, 22, 22);
   gap: 15px;
+  box-shadow: inset -1px 3px 8px 5px #070707, 2px 5px 16px 0px #000000, 33px 7px 18px 11px rgba(0, 0, 0, 0.34);
+  background-color: rgba(52, 122, 150, 0.8156862745);
 }
 
 .contenido-introduccion {
@@ -55,6 +56,36 @@ li a {
   margin-left: 10px;
 }
 
+.footer {
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  background-color: rgba(44, 44, 44, 0.74);
+  box-shadow: inset -1px 3px 8px 5px #616161, 2px 5px 16px 0px rgba(97, 97, 97, 0.6156862745), 33px 7px 18px 11px rgba(255, 255, 255, 0.34);
+  position: fixed;
+  bottom: auto;
+  color: rgba(253, 253, 253, 0.911);
+}
+
+footer li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nosotros {
+  position: inherit;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: inherit;
+  }
+  .footer-nosotros {
+    position: inherit;
+  }
+}
 .nosortros {
   display: flex;
 }
@@ -245,30 +276,8 @@ h2 {
   transition: 0.5s;
 }
 
-.footer {
-  font-size: 18px;
-  font-weight: bold;
-  width: 100%;
-  height: auto;
-  background-color: rgba(44, 44, 44, 0.74);
-  box-shadow: inset -1px 3px 8px 5px #616161, 2px 5px 16px 0px rgba(97, 97, 97, 0.6156862745), 33px 7px 18px 11px rgba(255, 255, 255, 0.34);
-  position: fixed;
-  bottom: auto;
-  color: rgba(253, 253, 253, 0.911);
-}
-
-footer li {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-
-.footer-nosotros {
-  position: inherit;
-}
-
 @media (max-width: 1024px) {
-  .aleria-imagenes {
+  .galeria-imagenes {
     padding: 5px;
   }
 }

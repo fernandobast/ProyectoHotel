@@ -19,3 +19,12 @@ footer li{
 .footer-nosotros{
     position: inherit;
 }
+
+@media(max-width: 768px){
+    .footer{
+        position: inherit;
+    }
+    .footer-nosotros{
+        position: inherit;
+    }
+}
