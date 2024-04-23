@@ -1,3 +1,4 @@
+
 @media(max-width: 1024px){
     .galeria-imagenes{
         padding: 5px;
@@ -5,20 +6,22 @@
 }
 
 @media(max-width: 768px){
+    .Contenido{
+        width: 80%;
 
+    }
     .galeria-imagenes{
         padding: 5px;
-    }
-    .footer{
-        font-size: 10px;
-    }
-    .copy-footer{
-        text-align: center;
     }
 }
 
 
-@media( max-width: 550px){
+@media( max-width: 500px){
+    
+    .Contenido{
+        width: 100%;
+
+    }
     .principal-contenido-titulo{
         
         font-size: 37px;
