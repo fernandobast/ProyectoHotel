@@ -22,10 +22,11 @@
     text-shadow: 3px 5px 2px #050505, 2px 2px 2px rgba(248, 248, 248, 0)
 }
 .listas-nav{
+    width: auto;
     padding: 0px;
     gap: 25px;
     list-style: none;
-    background-color: #ffffff;
+    background-color: #ffffffc9;
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: inset -1px 3px 8px 5px #0077ff, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
     
@@ -326,7 +327,8 @@ footer li{
 @media( max-width: 500px){
     
     .Contenido{
-        width: 100%;
+        width: 93%;
+        font-size: 18px;
 
     }
     .principal-contenido-titulo{

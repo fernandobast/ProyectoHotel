@@ -123,12 +123,18 @@ h2 {
 }
 
 .contenido {
-  margin-left: 5px;
+  margin-top: 2px;
+  margin-left: 15px;
   color: rgba(0, 0, 0, 0.89);
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: none;
   font-style: italic;
+}
+
+.contenido-lista1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
 }
 
 .contenido-contactos {
@@ -270,7 +276,7 @@ h2 {
   outline: none;
 }
 
-.contenido-contactos-boto {
+.contenido-contactos-boton {
   width: 50%;
   border-radius: 5px;
   transition: 0.5s;
@@ -280,19 +286,29 @@ h2 {
   .galeria-imagenes {
     padding: 5px;
   }
+  .contenido-contactos {
+    width: 80%;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 770px) {
+  .Contenido {
+    width: 80%;
+  }
   .galeria-imagenes {
     padding: 5px;
   }
-  .footer {
-    font-size: 10px;
+  .Titulo-contactos {
+    font-size: 25px;
+    margin: 2px;
   }
-  .copy-footer {
-    text-align: center;
+  .contenido-contactos {
+    width: 65%;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 500px) {
+  .Contenido {
+    width: 100%;
+  }
   .principal-contenido-titulo {
     font-size: 37px;
   }
@@ -308,6 +324,17 @@ h2 {
     font-size: 15px;
   }
   .copy-footer {
+    text-align: center;
+  }
+  .Titulo-contactos {
+    font-size: 20px;
+    margin: 2px;
+  }
+  .contenido-contactos {
+    width: auto;
+  }
+  li a {
+    font-size: 18px;
     text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
