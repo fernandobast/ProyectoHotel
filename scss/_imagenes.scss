@@ -34,20 +34,39 @@
                         "pileta pileta pileta pileta";
 }
 
+img{
+    transition: 0.8s;
+}
+
 .img-gym{
     grid-area: gym;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .img-parque{
     grid-area: parque;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .img-spa{
     grid-area: spa;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .img-comedor{
     grid-area: comedor;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 .img-pileta{
     grid-area: pileta;
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
 
